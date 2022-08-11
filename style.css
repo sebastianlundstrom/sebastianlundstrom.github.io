@@ -55,7 +55,6 @@ h3 {
 
 .project-text {
     margin: auto;
-    margin-top: 0%;
     width: 88%;
 }
 
@@ -93,6 +92,13 @@ footer img {
         width: 87%;
         border-radius: 12px;
     }
+
+    .project-text {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 88%;
+    }
+    
 
 }
 
