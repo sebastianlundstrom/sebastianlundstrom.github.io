@@ -26,12 +26,12 @@ h3 {
 }
 
 .header a:link {
-    text-decoration: none;
+    text-decoration: underline;
     color:#232124;
   }
   
 .header a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color:#232124;
   }
   
