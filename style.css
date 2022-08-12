@@ -1,10 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #92D1C3;
+    background-color: rgb(189, 215, 172);
     margin: 0;
     color: #232124;
     margin-bottom: 160px;
 }
+
 
 h1 {
     font-size: 5.4rem;
@@ -50,7 +51,7 @@ h3 {
 .thumb img {
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: 0 4px 8px 0 rgba(97, 111, 98, 0.2), 0 6px 20px 0 rgba(97, 111, 98, 0.19);
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
 }
 
 .project-text {
@@ -68,13 +69,16 @@ footer {
     right: calc(-50vw + 50%);
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding: 24px;
     bottom: 0;
-    background-image: linear-gradient( rgba(146, 209, 195, 0.8), rgba(146, 209, 195, 1));
+    background-image: linear-gradient( rgba(189, 215, 172, 0), rgba(189, 215, 172, 1));
 }
+
+
 
 footer img {
     width: 80px;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
 }
 
 @media only screen and (min-device-width: 480px) {
