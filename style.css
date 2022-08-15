@@ -101,7 +101,7 @@ footer img {
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
 }
 
-@media only screen and (min-device-width: 850px) {
+@media only screen and (min-device-width: 450px) {
 
     h1 {
         font-size: 5.7vw;
