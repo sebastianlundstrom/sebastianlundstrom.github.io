@@ -8,12 +8,12 @@ body {
 
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 8.5vw;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4.9vw;
     font-weight: 200;
 }
 
@@ -26,39 +26,57 @@ h3 {
     text-align: center;
 }
 
-.header a:link {
-    text-decoration: underline;
-    color:#232124;
-  }
-  
-.header a:visited {
-    text-decoration: underline;
-    color:#232124;
-  }
-  
-.header a:hover {
-    text-decoration: underline;
-  }
-  
-.header a:active {
-    text-decoration: underline;
-  }
-  
-.thumb {
-    margin-top: 100px;
+.header-back {
+    text-align: center;
+    position: fixed;
+    left: calc(-50vw + 50%);
+    right: calc(-50vw + 50%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    top: 0;
+    background-image: linear-gradient( rgba(189, 215, 172, 1), rgba(189, 215, 172, 0));
+    z-index: 200;
 }
+
+.header-back img {
+        width: 80px;
+        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
+}
+
+
+.thumb {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: #232124;
+    font-size: 15vw;
+  }
+
+
 
 .thumb img {
     width: 100%;
     margin-bottom: 24px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
+    
 }
 
 .project-text {
     margin: auto;
+    padding-top: 8vw;
     padding-left: 3%;
     padding-right: 3%;
-  
 }
 
 
@@ -83,7 +101,26 @@ footer img {
 
 @media only screen and (min-device-width: 480px) {
 
+    h1 {
+        font-size: 5.7vw;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 3.3vw;
+        font-weight: 200;
+    }
+    
+    h3 {
+        font-size: 2vw;
+        font-weight: 200;
+    }
 
+    .header-back img {
+        width: 64px;
+        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
+}
+    
 
     .content {
         margin-left: 15%;
@@ -91,19 +128,39 @@ footer img {
     }
 
     .thumb {
+        display: block;
+        position: relative;
         text-align: center;
+        width: 87%;
+        margin: auto;
+        margin-top: 10%;
     }
 
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        color: #232124;
+        font-size: 9vw;
+      }
+
     .thumb img {
-        width: 87%;
         border-radius: 12px;
     }
 
     .project-text {
         margin: auto;
+        padding-top: 5vw;
         width: 88%;
     }
     
+    footer img {
+        width: 64px;
+        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
+    }
     
 
 }
