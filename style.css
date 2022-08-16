@@ -110,7 +110,7 @@ a:active {
 
 .project-image img {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 5%;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
 }
 
@@ -198,7 +198,6 @@ footer img {
         text-align: center;
         width: 100%;
         margin: auto;
-        margin-top: 10%;
     }
 
     
