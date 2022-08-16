@@ -132,6 +132,8 @@ footer {
 
 footer img {
     width: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
 }
 
@@ -203,6 +205,8 @@ footer img {
     
     footer img {
         width: 64px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     
 
