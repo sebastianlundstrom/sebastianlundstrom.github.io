@@ -91,7 +91,7 @@ a:active {
 .thumb img {
     width: 100%;
     margin-bottom: 24px;
-    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
+    filter: drop-shadow(0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3));
 }
 
 .project-text {
@@ -203,7 +203,6 @@ footer img {
     
     footer img {
         width: 64px;
-        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(97, 111, 98, 0.5));
     }
     
 
