@@ -92,7 +92,6 @@ a:active {
     width: 100%;
     margin-bottom: 24px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
-    
 }
 
 .project-text {
@@ -100,6 +99,19 @@ a:active {
     padding-top: 8vw;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.project-image {
+    margin: auto;
+    padding-top: 8vw;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.project-image img {
+    width: 100%;
+    margin-bottom: 24px;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
 }
 
 
@@ -161,7 +173,6 @@ footer img {
     }
 
 
-
     .centered {
         position: absolute;
         top: 50%;
@@ -180,6 +191,16 @@ footer img {
         padding-top: 5vw;
         width: 88%;
     }
+
+    .project-image {
+        display: block;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
     
     footer img {
         width: 64px;
