@@ -12,39 +12,47 @@ h1 {
     font-weight: 400;
 }
 
+
 h2 {
     font-size: 4.9vw;
     font-weight: 200;
 }
+
 
 h3 {
     font-size: 2rem;
     font-weight: 200;
 }
 
+
 .header {
     text-align: center;
 }
+
 
 a:link {
     text-decoration: none;
     color: #232124;
 }
 
+
 a:visited {
     text-decoration: none;
     color: #232124;
 }
+
 
 a:hover {
     text-decoration: none;
     color: #232124;
 }
 
+
 a:active {
     text-decoration: none;
     color: #232124;
 }
+
 
 .header-back {
     text-align: center;
@@ -60,12 +68,14 @@ a:active {
     z-index: 200;
 }
 
+
 .header-back img {
-        width: 80px;
-        border-radius: 50%;
-        box-shadow: 0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3);
-        transition: .2s;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3);
+    transition: .2s;
 }
+
 
 .header-back img:hover {
     transform: scale(1.1);
@@ -82,6 +92,7 @@ a:active {
     margin-bottom: 5%;
     transition: .2s;
 }
+
 
 .thumb:hover {
     transform: scale(1.03);
@@ -105,7 +116,6 @@ a:active {
 }
 
 
-
 .project-text {
     margin: auto;
     padding-top: 8vw;
@@ -113,12 +123,14 @@ a:active {
     padding-right: 3%;
 }
 
+
 .project-image {
     margin: auto;
     padding-top: 8vw;
     padding-left: 3%;
     padding-right: 3%;
 }
+
 
 .project-image img {
     width: 100%;
@@ -141,7 +153,6 @@ footer {
 }
 
 
-
 footer img {
     width: 80px;
     border-radius: 50%;
@@ -151,9 +162,11 @@ footer img {
     transition: .2s;
 }
 
+
 footer img:hover {
     transform: scale(1.1);
 }
+
 
 @media only screen and (min-device-width: 450px) {
 
@@ -162,15 +175,18 @@ footer img:hover {
         font-weight: 400;
     }
     
+
     h2 {
         font-size: 3.3vw;
         font-weight: 200;
     }
     
+
     h3 {
         font-size: 2vw;
         font-weight: 200;
     }
+
 
     .header-back img {
         width: 64px;
@@ -182,6 +198,7 @@ footer img:hover {
         margin-left: 15%;
         margin-right: 15%;
     }
+
 
     .thumb {
         display: block;
@@ -202,15 +219,18 @@ footer img:hover {
         font-size: 9vw;
       }
 
+
     .thumb img {
         border-radius: 12px;
     }
+
 
     .project-text {
         margin: auto;
         padding-top: 5vw;
         width: 88%;
     }
+
 
     .project-image {
         display: block;
