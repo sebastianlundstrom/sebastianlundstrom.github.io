@@ -62,7 +62,8 @@ a:active {
 
 .header-back img {
         width: 80px;
-        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
+        border-radius: 50%;
+        box-shadow: 0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3);
         transition: .2s;
 }
 
@@ -80,8 +81,12 @@ a:active {
     margin-top: 5%;
     margin-bottom: 5%;
     transition: .2s;
-
 }
+
+.thumb:hover {
+    transform: scale(1.03);
+}
+
 
 .centered {
     position: absolute;
@@ -93,16 +98,12 @@ a:active {
   }
 
 
-
 .thumb img {
     width: 100%;
     margin-bottom: 24px;
-    filter: drop-shadow(0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3));
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3);
 }
 
-.thumb:hover {
-    transform: scale(1.03);
-}
 
 
 .project-text {
@@ -143,9 +144,10 @@ footer {
 
 footer img {
     width: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
-    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3);
     transition: .2s;
 }
 
@@ -221,8 +223,8 @@ footer img:hover {
     
     footer img {
         width: 64px;
-        padding-left: 32px;
-        padding-right: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
     }
     
 
