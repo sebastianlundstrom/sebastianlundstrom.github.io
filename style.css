@@ -63,6 +63,11 @@ a:active {
 .header-back img {
         width: 80px;
         filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
+        transition: .2s;
+}
+
+.header-back img:hover {
+    transform: scale(1.1);
 }
 
 
@@ -74,6 +79,7 @@ a:active {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: .2s;
 
 }
 
@@ -93,6 +99,11 @@ a:active {
     margin-bottom: 24px;
     filter: drop-shadow(0.2rem 0.2rem 0.5rem rgba(61, 87, 43, 0.3));
 }
+
+.thumb:hover {
+    transform: scale(1.03);
+}
+
 
 .project-text {
     margin: auto;
@@ -135,6 +146,11 @@ footer img {
     padding-left: 40px;
     padding-right: 40px;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(61, 87, 43, 0.4));
+    transition: .2s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
 }
 
 @media only screen and (min-device-width: 450px) {
