@@ -167,6 +167,10 @@ footer img:hover {
     transform: scale(1.1);
 }
 
+.keys {
+    color: rgb(189, 215, 172);
+}
+
 
 @media only screen and (min-device-width: 450px) {
 

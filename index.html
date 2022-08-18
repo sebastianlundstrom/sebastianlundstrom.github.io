@@ -22,15 +22,45 @@
         <div class="thumb"><a href="acouwood.html"><img src="img/acouwoodthumb.png" alt="Acouwood"><div class="centered">Acouwood</div></a></div>
         <div class="thumb"><a href="bangolf.html"><img src="img/bangolfthumb.png" alt="Bangolf"><div class="centered">Bangolf</div></a></div>
         <div class="thumb"><a href="drill.html"><img src="img/drillthumb.png" alt="Drill"><div class="centered">Drill</div></a></div>
-
+        <div class="keys">
+            <div data-key="65" class="key">
+                <kbd>a</kbd>
+            <div data-key="83" class="key">
+                <kbd>s</kbd>
+            <div data-key="68" class="key">
+                <kbd>d</kbd>
+            <div data-key="70" class="key">
+                <kbd>f</kbd>
+            </div>
+          </div>
+          <audio data-key="65" src="sound/bd09.wav"></audio>
+          <audio data-key="83" src="sound/sd07.wav"></audio>
+          <audio data-key="68" src="sound/hh01.wav"></audio>
+          <audio data-key="70" src="sound/cp01.wav"></audio>
+        </body>
+        <script>
+        function removeTransition(event) {
+          if (event.propertyName !== 'transform') return
+          event.target.classList.remove('playing')
+        }
+        function playSound(event) {
+          const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`)
+          const key = document.querySelector(`div[data-key="${event.keyCode}"]`)
+          if (!audio) return
+          key.classList.add('playing')
+          audio.currentTime = 0
+          audio.play()
+        }
+        const keys = Array.from(document.querySelectorAll('.key'))
+        keys.forEach((key) => key.addEventListener('transitionend', removeTransition))
+        window.addEventListener('keydown', playSound)
+        </script>
         
     </div>
 
     <footer>
         <a href="mailto:sebastian.lundstrom@gmail.com"><img src="img/mail.png" alt="Mail me!"></a>
         <a href="https://www.linkedin.com/in/sebastian-lundstrom-532a3a203"><img src="img/linkedin.png" alt="Linkedin me!"></a>
-    
-    
     </footer>
 
     </body>
