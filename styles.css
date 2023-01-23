@@ -4,6 +4,10 @@ body {
     background-color: #232528;
     color: #F5F3F5;
     height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+    height: stretch;
     width: 100%;
     margin: 0;
 }
