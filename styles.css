@@ -58,14 +58,12 @@ a:visited {
     box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
 }
 
-
 .content_box img {
     width: 100%;
     height: 100%;
     filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(35, 37, 40, 0.2));
     margin-bottom: 0.2rem;
 }
-
 
 .content_text {
     margin-left: 4%;
@@ -86,14 +84,9 @@ a:visited {
     margin-top: 0;
 }
 
-
 .button_box {
     display: flex;
     justify-content: center;
-}
-
-.button_box :hover {
-    transform: scale(1.03);
 }
 
 .project_box {
@@ -127,7 +120,6 @@ a:visited {
     width: 5.5rem;
     margin-top: 0;
     box-shadow: 1px 1px 8px rgba(168, 91, 125, 0.5);
-    transition: 0.2s ease-in-out;
 }
 
 .contact_box {
@@ -137,10 +129,6 @@ a:visited {
     margin-right: 7%;
     margin-top: 0.25rem;  
     margin-bottom: 2.5rem;
-}
-
-.contact_box :hover {
-    transform: scale(1.03);
 }
 
 .contact_button {
@@ -158,9 +146,7 @@ a:visited {
     width: 5.5rem;
     margin-top: 0.5rem;
     box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.4);
-    transition: 0.2s ease-in-out;
 }
-
 
 footer {
     position: fixed; 
@@ -241,12 +227,12 @@ footer a:hover {
         margin-right: 1rem;
     }
     
-    
     .content_button {
         font-size: 0.7rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         width: 6rem;
+        transition: 0.2s ease-in-out;
     }
     
     .project_box {
@@ -265,18 +251,25 @@ footer a:hover {
         border-top-right-radius: 6px;
     }
     
+    .button_box :hover {
+        transform: scale(1.03);
+    }
     
     .contact_box {
         margin-bottom: 5rem;
     }
+
+    .contact_box :hover {
+        transform: scale(1.03);
+    }    
     
     .contact_button {
         font-size: 0.7rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         width: 6rem;
+        transition: 0.2s ease-in-out;
     }
-    
     
     footer {
         padding-top: 1rem;
