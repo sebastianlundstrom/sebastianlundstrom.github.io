@@ -4,10 +4,7 @@ body {
     background-color: #232528;
     color: #F5F3F5;
     height: 100%;
-    height: -moz-available;
-    height: -webkit-fill-available;
-    height: fill-available;
-    height: stretch;
+
     width: 100%;
     margin: 0;
 }
@@ -15,7 +12,6 @@ body {
 :root {
     font-size: 24px;
   }
-
 
 h1 {
     font-size: 1rem;
@@ -64,7 +60,6 @@ a:visited {
 
 .content_box img {
     width: 100%;
-    height: 100%;
     filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(35, 37, 40, 0.2));
     margin-bottom: 0.2rem;
 }
@@ -93,20 +88,22 @@ a:visited {
     justify-content: center;
 }
 
+#wrap {
+    padding-bottom: 20%;
+}
+
 .project_box {
     background-color: #F5F3F5;
     margin: auto;
-    margin-bottom: 2rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
 }
 
 .project_box img {
     width: 100%;
-    height: 100%;
     filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(35, 37, 40, 0.2));
-    margin-bottom: 0.2rem;
+    padding-top: 1rem;
 }
 
 .content_button {
@@ -131,8 +128,7 @@ a:visited {
     justify-content: center;
     gap: 8%;
     margin-right: 7%;
-    margin-top: 0.25rem;  
-    margin-bottom: 20%;
+    margin-top: 0.25rem;
 }
 
 .contact_button {
@@ -159,8 +155,8 @@ footer {
     right: 0;
     text-align: center;
     font-size: 0.75rem;
-    padding-top: 2%;
-    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 5%;
     background-color: rgba(35,37,40, 0.8);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
@@ -184,6 +180,10 @@ footer a:hover {
 
 
 @media only screen and (min-device-width: 821px) {
+
+    #wrap {
+        padding-bottom: 6%;
+    }
     
     h1 {
         font-size: 1.2rem;
@@ -222,8 +222,8 @@ footer a:hover {
     }
     
     .content_box img {
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
+        border-top-left-radius: 3.5px;
+        border-top-right-radius: 3.5px;
     }
     
     .content_text {
@@ -244,24 +244,18 @@ footer a:hover {
         border-color: rgba(35, 37, 40, 0.9);
         border-style: solid;
         margin-top: 0.5rem;
-        margin-bottom: 4rem;
         margin-left: 28%;
         margin-right: 28%;
         border-width: 2px;
-    }
-    
-    .project_box img {
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
     }
     
     .button_box :hover {
         transform: scale(1.03);
     }
     
-    .contact_box {
-        margin-bottom: 5rem;
-    }
+   /* .contact_box {
+        margin-bottom: 4rem;
+    }*/
 
     .contact_box :hover {
         transform: scale(1.03);
@@ -277,7 +271,7 @@ footer a:hover {
     
     footer {
         padding-top: 1rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
     }
     
     footer a {
