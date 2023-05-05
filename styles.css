@@ -212,13 +212,15 @@ footer a:hover {
     
     .content_box {
         border-radius: 6px;
-        border-color: rgba(35, 37, 40, 0.9);
+        /*border-color: rgba(35, 37, 40, 0.9);*/
+        border-color: #7b7c7e;
         border-style: solid;
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
         margin-left: 28%;
         margin-right: 28%;
         border-width: 2px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     }
     
     .content_box img {
