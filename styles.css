@@ -57,7 +57,8 @@ main {
 }
 
 .project-box img {
-    max-width: 80%;
+    width: auto;
+    max-width: 70%;
     max-height: 80%;
     object-fit: cover;
 }
@@ -187,8 +188,3 @@ main {
             width: 60%;
         }
 }
-
-
-.yourClass {
-    all:unset
- }
