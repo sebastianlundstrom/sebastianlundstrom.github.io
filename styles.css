@@ -19,8 +19,7 @@ header {
 h1 {
     font-size: 3em;
     font-weight: 200;
-    /*color: #2541B2;*/
-    color: red;
+    color: #2541B2;
     line-height: 1.3em;
 }
 
@@ -143,8 +142,7 @@ main {
 
     h1 {
         font-size: 5em;
-    /*color: #2541B2;*/
-    color: red;
+        color: #2541B2;
     }
 
     main {
