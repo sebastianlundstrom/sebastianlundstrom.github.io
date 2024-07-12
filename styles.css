@@ -44,7 +44,6 @@ main {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     width: 100%;
 }
 
@@ -92,7 +91,6 @@ main {
 
 
 
-
 .project-details {
     display: flex;
     flex-direction: column;
@@ -132,7 +130,7 @@ main {
 }
 
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 640px) {
 
 
     .welcome {
@@ -189,3 +187,8 @@ main {
             width: 60%;
         }
 }
+
+
+.yourClass {
+    all:unset
+ }
