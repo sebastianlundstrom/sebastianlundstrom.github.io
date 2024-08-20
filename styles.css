@@ -71,6 +71,7 @@ a {
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-thickness: 2px;
+    opacity: 0.6;
   }
 
   
@@ -163,7 +164,7 @@ a {
       float: left;
     }
     .header li a {
-      padding: 20px 30px;
+      padding: 24px 32px;
     }
     .header .menu {
       clear: none;
@@ -181,10 +182,11 @@ main {
     justify-content: left;
     gap: 40px;
     padding-top: 24px;
+    padding-bottom: 0px;
 }
 
 .welcome {
-    padding-top: 40px;
+    padding-top: 56px;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -275,6 +277,31 @@ main {
     color: #333;
 }
 
+.contact {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2541B2;
+    text-align: center;
+    color: #F4F7F5;
+    font-size: 20px;
+}
+
+.contact p {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact a {
+    color: #F4F7F5;
+    text-underline-offset: 2px;
+}
+
+.contact a:hover {
+    opacity: 0.6;
+}
+
 
 @media only screen and (min-device-width: 640px) {
 
@@ -306,6 +333,10 @@ main {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         width: 100%;
         gap: 8px;
+    }
+
+    .project-box {
+        border-radius: 4px;
     }
 
     .project-box:hover .overlay {
