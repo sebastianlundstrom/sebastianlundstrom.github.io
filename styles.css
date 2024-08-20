@@ -192,6 +192,7 @@ main {
 .projects {
     display: grid;
     width: 100%;
+    max-height: 100%;
 }
 
 .project-box {
@@ -201,11 +202,9 @@ main {
     justify-content: center;
     overflow: hidden;
     aspect-ratio: 4 / 3;
-    max-height: 80vh;
-
 }
 
-.project-box img {
+.projects img {
     max-width: 70%;
     max-height: 80%;
 }
