@@ -74,11 +74,11 @@ main {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.1s ease;
     backdrop-filter: blur(0.5px);
 }
 
-.project-box:hover .overlay {
+.project-box:active .overlay {
     opacity: 1;
 }
 
@@ -153,6 +153,11 @@ main {
         width: 100%;
         gap: 8px;
     }
+
+    .project-box:hover .overlay {
+        opacity: 1;
+    }
+    
 
     .project-details {
         display: flex;
