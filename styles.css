@@ -248,6 +248,39 @@ main {
     padding: 24px;
 }
 
+.clients-headline {
+  font-size: 1.6rem;
+  width: 100%;
+
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.clients-headline p {
+  color:rgba(37, 65, 178, 1);
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: auto;
+  padding-bottom: 24px;
+}
+
+.client-box {
+  display: grid;
+  gap: 24px;
+}
+
+.client-name {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+}
+
+
+
+ul {
+  font-size: 1.2rem;
+}
+
 .project-details {
     display: flex;
     flex-direction: column;
@@ -383,8 +416,32 @@ footer a:hover {
     .project-box:hover .overlay {
         opacity: 1;
     }
-    
 
+    .clients-headline {
+      font-size: 3rem;
+      width: 100%;
+      text-align: left;
+      padding: 0;
+    }
+    
+    .clients-headline p {
+      color:rgba(37, 65, 178, 1);
+      font-weight: 400;
+      font-size: 3.4rem;
+      padding-bottom: 40px;
+    }
+    
+    .client-box {
+      display: grid;
+      gap: 40px;
+    }
+    
+    .client-name {
+      display: inline-block;
+      color: #333;
+      font-weight: 400;
+    }
+    
     .project-details {
         display: flex;
         flex-direction: column;
@@ -392,7 +449,10 @@ footer a:hover {
         width: 80%;
         margin: auto;
         padding-top: 48px;
-        border-radius: 4px;
+    }
+
+    .project-details-box {
+      border-radius: 4px;
     }
 
     .me-details {
